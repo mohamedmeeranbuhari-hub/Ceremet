@@ -2,3 +2,11 @@
 *-backups/
 *.kicad_prl
 ~*.lck
+
+# Build & DRC reports
+*.rpt
+
+# Copperpilot & autorouter artifacts
+.copperpilot/
+logs/
+repo_order.txt

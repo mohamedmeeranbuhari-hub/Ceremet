@@ -536,7 +536,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "..\\BOM\\cerement pcb.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -622,6 +622,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KiLib_Generator",
+          "name": "KiLib_Generator",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -672,7 +678,7 @@
         "uuid": "909079bc-d0af-4e46-8189-3dfdda1f245f"
       }
     ],
-    "used_designators": "#FLG3,R3-4,J7,J11,J16,U1-2,#PWR1-15",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
